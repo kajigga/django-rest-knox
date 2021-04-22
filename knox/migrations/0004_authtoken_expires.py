@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='authtoken',
-            name='expires',
+            name='expiry',
             field=models.DateTimeField(null=True, blank=True),
         ),
     ]
