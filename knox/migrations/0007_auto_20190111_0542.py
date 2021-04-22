@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.RenameField(
             model_name='authtoken',
-            old_name='expires',
+            old_name='expiry',
             new_name='expiry',
         ),
     ]
